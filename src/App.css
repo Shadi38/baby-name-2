@@ -1,11 +1,10 @@
 .App {
   text-align: center;
+  
+  align-items: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -13,16 +12,7 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+
 
 .App-link {
   color: #61dafb;
@@ -35,4 +25,45 @@
   to {
     transform: rotate(360deg);
   }
+
+}
+
+.headerDiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.namesDiv{
+  float: left;
+  width: 100px; 
+  box-sizing: border-box;
+  background-color: rgb(246, 248, 249);
+}
+button{
+  border-style: none;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.searchDiv{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  width: 80px;
+  border-radius: 5px;
+}
+.selectedNameDiv{
+  margin: 10px;
+  width: 100px;
+  
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.nameDiv{
+  margin-left: 5px;
+  margin-right: 5px;
+  border: dotted rgb(33, 233, 230) 1px;
+  background-color: rgb(246, 248, 249);
 }
