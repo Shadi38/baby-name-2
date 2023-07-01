@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Child from "./Child";
+
 
 function Search(props) {
   const [inputValue, setInputValue] = useState("");
